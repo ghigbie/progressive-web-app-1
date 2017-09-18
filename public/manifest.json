@@ -1,0 +1,26 @@
+{
+    "name": "Instagram as Progressive Web App", //longname of app - splashscreen
+    "short_name": "PWAGram", //short name of app - below icon
+    "start_url": //which page to load on startup
+    "scope": ".", //which pages are progressive
+    "display": "standalone", //should it look like a app or a browser window
+    "background_color": "#fff", //background while loading on the splash screen
+    "theme_color": "#3F51B5", //top bar in task switcher
+    "description": 
+    "dir": "ltr" //direction in which your app is read
+    "lang": "en-US" 
+    "orientation" : "protrait-primary"
+    "icons": [
+            {"src": "/src/images/icons/app-icon-48x48.png",
+             "type": "image/png",
+             "size": "48x48"
+            },
+            {"src": "/src/images/icons/app-icon-96x96.png",
+             "type": "image/png",
+             "size": "96x96"
+            },
+        ]
+    "related_applications": [
+        ]    
+    
+}
