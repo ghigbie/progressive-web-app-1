@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "http-server -c-1 -p 8081"
+    "start": "http-server -c-1 -p 8082"
   },
   "author": "George Higbie",
   "license": "ISC",
