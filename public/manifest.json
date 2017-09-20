@@ -20,7 +20,7 @@
             {"src": "/src/images/icons/app-icon-96x96.png",
              "type": "image/png",
              "size": "96x96"
-            },
+            }, //an image that is 128dp is chosen to be the splash screen
             {"src": "/src/images/icons/app-icon-144x144.png",
              "type": "image/png",
              "size": "144x144"
