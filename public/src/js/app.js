@@ -1,4 +1,6 @@
 /* global navigator*/
+var deferredPrompt;
+
 
 if('serviceWorker' in navigator){ //this checks the browser for a service worker
     navigator.serviceWorker
@@ -7,3 +9,11 @@ if('serviceWorker' in navigator){ //this checks the browser for a service worker
             console.log('Service worker registered! Yay!!!');
         });
 }
+
+
+window.addEventListener('beforeinstallprompt', function(event){
+   console.log('beforeinstallprompt fired');
+   event.preventDefault();
+   deferredPrompt = event;
+   return false;
+});
