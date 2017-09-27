@@ -20,14 +20,14 @@ window.addEventListener('beforeinstallprompt', function(event){
 let promise = new Promise(function(resolve, reject){
     setTimeout(function() {
        // resolve('This is from within setTimeout');
-       reject({code: 500, message: 'Something went wrong!'})
+       reject({code: 500, message: 'Something went wrong!'});
     }, 3000);
 });
 
 promise.then(function(text){
     return text;
 }).then(function(newText){
-    console.log(newText)
+    console.log(newText);
 }).catch(function(err){
     console.log(err.code, err.message);
 });
